@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SERENITY SALON & SPA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top lg:mx-24">
+        <a class="navbar-brand font-bold" href="/">SERENITY SALON & SPA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About us</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#service">Hair Cut</a>
+                        <a class="dropdown-item" href="#service">Hair Spa</a>
+                        <a class="dropdown-item" href="#service">Hair Wash</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#service">Other services</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#gallery">Gallery </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#test">Testimonials </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact Us </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Homepage -->
+    <section class="hero my-32" id = "hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1 class="text-6xl font-bold ">Welcome to our Salon</h1>
+              <p class="text-xl">Get the best hair, nail and skin treatments in town.</p>
+              <a href="#" class="btn btn-primary">Book an appointment</a>
+            </div>
+            <div class="col-md-6">
+              <img src="https://media.istockphoto.com/id/468366943/photo/beauty-portrait-concept-coloring-hair.jpg?s=612x612&w=0&k=20&c=5sDJV2TV3-2dgYpbLKEvqMKpFKVT8EaHS43EikXbvIc=" alt="Salon" class="img-fluid m-4">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <!-- About us -->
+      <section id="about" class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">About Us</h2>
+              <hr class="my-4">
+            </div>
+          </div>
+          <div class="row mb-12">
+            <div class="col-lg-6 col-md-6 text-lg">
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae erat sit amet massa dignissim efficitur. Integer vel erat quam. Etiam malesuada ac ex non bibendum. Etiam vitae sapien elit. Duis ultrices sem sed est molestie, sed dignissim dolor hendrerit. Ut molestie sit amet sapien eget bibendum. Aenean ut rutrum augue. Proin ut sapien nisl.</p>
+              <p class="text-muted">Fusce non lacus justo. Pellentesque id neque suscipit, euismod ex sed, euismod augue. Sed pretium quam ac lectus tincidunt, vitae dapibus sapien gravida. Nulla facilisi. Nulla at consequat nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Fusce nec magna et ex finibus blandit in eget mauris.</p>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <img src="https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/wi/art/5cbdb26663682.jpeg" alt="Our Team">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Our Team</h2>
+              <hr class="my-4">
+            </div>
+          </div>
+          <div class="row mb-12">
+            <div class="col-lg-3 col-md-6">
+              <div class="team-member flex flex-col justify-center item-center text-center flex flex-col justify-center item-center text-center">
+                <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80" class="mx-auto rounded-circle" alt="">
+                <h4>Rozer Fader</h4>
+                <p class="text-muted">hair specialist</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-member flex flex-col justify-center item-center text-center">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="mx-auto rounded-circle" alt="">
+                <h4>John Cane</h4>
+                <p class="text-muted">Nail Specialist</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-member flex flex-col justify-center item-center text-center">
+                <img src="https://cdn.cliqueinc.com/posts/282057/french-girl-fringe-282057-1566555822477-square.700x0c.jpg" class="mx-auto rounded-circle" alt="">
+                <h4>Kaury detch</h4>
+                <p class="Skin Specilist">Position 3</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="team-member flex flex-col justify-center item-center text-center">
+                <img src="https://media.vogue.co.uk/photos/5e8de301fa485b000804ef24/1:1/pass/70872483_143588887056190_1079728061147841535_n.jpg" class="mx-auto rounded-circle" alt="">
+                <h4>Lily carry</h4>
+                <p class="text-muted">Eye specialist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services -->
+      <section id="service" class="bg-light my-24">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="section-heading text-uppercase">Our Services</h2>
+              <h3 class="section-subheading text-muted mb-8">We offer a wide range of services to meet your beauty needs.</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://www.neomissalonandspa.com/wp-content/themes/devdmbootstrap3/img/hair-service-2.jpg" alt="Hair Services">
+                <div class="card-body">
+                  <h4 class="card-title">Hair Services</h4>
+                  <p class="card-text">From cuts to color, our stylists will give you the perfect look.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://productimages.withfloats.com/serviceimages/tile/62126efe35459ae3320f39d2dpainted" alt="Nail Services">
+                <div class="card-body">
+                  <h4 class="card-title">Nail Services</h4>
+                  <p class="card-text">Get your nails looking their best with our range of nail services.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img class="card-img-top" src="https://static.toiimg.com/photo/msid-77806691/77806691.jpg" alt="Skin Services">
+                <div class="card-body">
+                  <h4 class="card-title">Skin Services</h4>
+                  <p class="card-text">Pamper yourself with our range of skin services, from facials to waxing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- gallarty -->
+      <section id="gallery" class="mb-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2>Our Gallery</h2>
+              <hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <a href="#galleryModal1" class="gallery-link" data-toggle="modal">
+                <img src="https://t4.ftcdn.net/jpg/01/81/61/29/360_F_181612908_uiOH8a4qWiNGuGS2Pg5dgwUIKJZ0C02w.jpg" class="img-fluid m-4" alt="Gallery Image 1">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <a href="#galleryModal2" class="gallery-link" data-toggle="modal">
+                <img src="https://previews.123rf.com/images/gemenacom/gemenacom1111/gemenacom111100101/11223838-situation-in-a-hair-salon.jpg" class="img-fluid m-4" alt="Gallery Image 2">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <a href="#galleryModal3" class="gallery-link" data-toggle="modal">
+                <img src="https://www.gigissalonspa.com/files/7716/5530/9165/SalonHeader.jpg" class="img-fluid m-4" alt="Gallery Image 3">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <a href="#galleryModal4" class="gallery-link" data-toggle="modal">
+                <img src="https://www.thesun.co.uk/wp-content/uploads/2017/06/nintchdbpict000304750692.jpg?strip=all&quality=100&w=1620&h=1080&crop=1" class="img-fluid m-4" alt="Gallery Image 4">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <a href="#galleryModal5" class="gallery-link" data-toggle="modal">
+                <img src="https://img.freepik.com/free-photo/female-hairdresser-beauty-salon_1303-27755.jpg" class="img-fluid m-4" alt="Gallery Image 5">
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <a href="#galleryModal6" class="gallery-link" data-toggle="modal">
+                <img src="https://media.istockphoto.com/id/460389871/photo/hair-salon-coloring.jpg?s=612x612&w=0&k=20&c=UqFfD0-Z5JBwnuaNzr2WLu9tQBa5KMVVj6wz9cN8ed4=" class="img-fluid m-4" alt="Gallery Image 6">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Gallery Modals -->
+      <section id="portfolio" class="bg-light mb-24">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <hr class="star-primary">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 portfolio-item">
+              <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="https://www.boldsky.com/img/1200x60x675/2019/10/coverimage-1517297567-1572264464.jpg" class="img-responsive" alt="">
+              </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+              <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="https://img.grouponcdn.com/iam/7rZvhqWK9Gjf6C3Z4jay/nt-2048x1229/v1/t440x300.jpg" class="img-responsive" alt="">
+              </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+              <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                  <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src="https://img.grouponcdn.com/deal/otVRXz8zhPj61suhTYqE/vr-2048x1229/v1/c870x524.jpg" class="img-responsive" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Blog section -->
+      <section id="blog" class="bg-light">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="mb-4">Latest Blog Posts</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="https://static.toiimg.com/thumb/msid-96806667,width-400,resizemode-4/96806667.jpg" class="card-img-top" alt="Blog Post Image">
+                <div class="card-body">
+                  <h5 class="card-title">5 Tips for Healthy Hair</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae neque et augue dictum aliquam. Morbi dapibus turpis vel mauris tincidunt dapibus. Sed rutrum tellus euismod, convallis sapien nec, vulputate eros.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="https://pearlfairnesscream.com/wp-content/uploads/2021/04/Hair-Protection-in-Summer.jpg" class="card-img-top" alt="Blog Post Image">
+                <div class="card-body">
+                  <h5 class="card-title">10 Hairstyles for Summer</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae neque et augue dictum aliquam. Morbi dapibus turpis vel mauris tincidunt dapibus. Sed rutrum tellus euismod, convallis sapien nec, vulputate eros.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="https://static-bebeautiful-in.unileverservices.com/natural%20remedies%20for%20glowing%20skin.png" class="card-img-top" alt="Blog Post Image">
+                <div class="card-body">
+                  <h5 class="card-title">5 Benefits of Regular Facials</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae neque et augue dictum aliquam. Morbi dapibus turpis vel mauris tincidunt dapibus. Sed rutrum tellus euismod, convallis sapien nec, vulputate eros.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Testimonials   -->
+      <section id="test" class="bg-light mb-24">
+        <div class="container">
+          <h2 class="text-center mb-5">Testimonials</h2>
+          <div class="row">
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">I recently had the pleasure of visiting this salon and I cannot say enough good things about my experience. From the moment I walked in, I was greeted with warmth and kindness by the receptionist.</p>
+                </div>
+                <div class="card-footer">
+                  <h5 class="card-title">Jane Doe</h5>
+                  <p class="card-text"><small class="text-muted">Client</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">My stylist was incredibly talented and took the time to listen to exactly what I wanted, while also offering her expert advice. The end result was a beautiful haircut that I am absolutely thrilled with.</p>
+                </div>
+                <div class="card-footer">
+                  <h5 class="card-title">John Smith</h5>
+                  <p class="card-text"><small class="text-muted">Client</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">Overall, I would highly recommend xperience. The staff is friendly and professional, the environment is relaxing, and the services are top-notch. I will definitely be returning in the future!</p>
+                </div>
+                <div class="card-footer">
+                  <h5 class="card-title">Sarah Johnson</h5>
+                  <p class="card-text"><small class="text-muted">Client</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+     
+      <!-- FAQ section -->
+      <div class="container" id="faq">
+        <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Question 1: What are your salon hours?
+                </button>
+              </h5>
+            </div>
+      
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+              <div class="card-body">
+                Our salon hours are Monday-Friday 9am-6pm and Saturday 10am-5pm.
+              </div>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Question 2: How do I book an appointment?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+              <div class="card-body">
+                You can book an appointment by calling our salon at (555) 123-4567 or by booking online on our website.
+              </div>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Question 3: What is your cancellation policy?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+              <div class="card-body">
+                We require at least 24 hours notice for any cancellations. If you cancel within 24 hours of your appointment or do not show up for your appointment, you may be charged a cancellation fee.
+              </div>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Question 4: Do you offer group bookings or packages?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+              <div class="card-body">
+                Yes, we offer group bookings and packages for special occasions such as weddings and birthdays. Please contact us for more information.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Contact Us -->
+      <section id="contact" class="py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>Contact Us</h2>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter your subject">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.873156530255!2d-80.19454398444298!3d25.777889783603347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b4ca7d9e30e9%3A0x2fb07f7a0971d29!2sMiami%20Beach%20Convention%20Center%2C%20Convention%20Center%20Dr%2C%20Miami%20Beach%2C%20FL%2033149%2C%20United%20States!5e0!3m2!1sen!2sin!4v1615178046459!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Footer       -->
+    <footer class="py-4">
+        <div class="container">
+          <div class="row flex justify-center item-center text-center">
+            <div class="col-md-4">
+              <h5>Connect with us</h5>
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Company</h5>
+              <ul class="list-unstyled">
+                <li><a href="#about">About us</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#contact">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Legal</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms of use</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2023 Your SERENITY SALON & SPA. All rights reserved.</p>
+              <a href="#top" class="btn btn-secondary btn-sm mb-3">Back to top</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
